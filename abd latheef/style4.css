@@ -1,0 +1,93 @@
+.display{
+    background-color: black;
+    padding: 40px;
+    color: yellow;
+    width: 100%;
+}
+.display > img {
+    float: left;
+    margin-right: 20px;
+    background-color: red;
+    padding: 10px;
+    
+} 
+
+li {
+    margin-right: 7px;
+    display: inline;
+    position: relative;
+    left: 55%;
+
+}
+li:after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background-color: transparent;
+    transition: width 0.5s ease,background-color 0.5 ease;
+    transition: all 0.5s ease;
+}
+li:hover:after {
+    width: 100%;
+    background-color: red;
+}
+button {
+    background-color: red;
+    border-radius: 30px;
+}
+body {
+    background-color: black;
+}
+.whatsapp {
+    background-color: #25D366;
+}
+.instagram {
+    background-color:#C13584;
+}
+.snapchat {
+    background-color: #FFFC00;
+}
+::selection {
+    color: black;
+    background-color: aqua;
+}
+.loging {
+    color: white;
+    text-align: center;
+    border: dashed ;
+    border-width: 10px;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 10cm;
+}
+
+input[type="text"]{
+    margin: 18px 0;
+    padding: 12px 12px;
+    border-radius: 10px;
+   background-color: aqua;
+    width: 100%;
+    color: gray;
+}
+input[type="password"]{
+    margin: 15px;
+    padding: 12px 12px;
+    border-radius: 10px;
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    right: 2%;
+    
+}
+@media screen and (max-width: 900px) {
+    body {
+        background-color: lightcoral;
+    }
+}
+@media  screen and (max-width: 600px) {
+    body {
+        background-color: lightgreen;
+    }
+}

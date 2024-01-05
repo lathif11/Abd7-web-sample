@@ -1,0 +1,168 @@
+ .html {
+   
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+.html p {
+    color: black;
+}
+ h1 {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p span {
+    font-weight: bold;
+    font-style: italic;
+}
+.intro h1 {
+    color: white;
+    background-color: green ; 
+}
+p {
+    color: black;
+}
+span {
+    font-size: 30px
+}
+p {
+    font-size: 20px;
+}
+
+.intro h1 {
+    color:black;
+    border-style: dotted;
+    padding: 20px;
+   padding-top: 20px;
+}
+
+.intro {
+    background-color: green ;
+}
+p2 {
+    background-color: green;
+    font-size: 20px;
+}
+button {
+    color: white;
+}
+.intro button {
+    background-color:white;
+    color: red;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style:dashed;
+    border-radius: 20px;
+    margin: 10px 20px 30px 40px;    
+}
+.testimonial {
+    background-color: #2196f3;
+    padding:30px;
+    width: auto;
+    height: 300px;
+}
+.outline h1 {
+    font-weight: 120px;
+}
+.outline {
+    padding: 30px
+    border: 2px solid;
+    background-color: black;
+    color: white;
+    outline: 5px solid  green;
+    outline-style: dashed;
+}
+.textformating {
+    background-color: #2196f3;
+   /* text-decoration: overline;*/
+    text-indent: 50px;
+    letter-spacing: 3px;
+    line-height: 1.9;
+   /* direction: rtl;*/
+    word-spacing: 10px;
+   /* text-align: justify;*/
+}
+.textformating h1 {
+    font-weight: bold;
+    text-shadow: 3px 2px red;
+    color: white;
+    text-align: justify;
+    background-color: blue;
+   /* text-decoration: line-through;*/ 
+}
+.icons {
+   
+    background-color: blue;
+    color: white;
+}
+.link {
+    background-color: black;
+    color: #FFF;
+    text-align: justify;
+}
+.link a{
+    color: lime;
+}
+.link a:link {
+    color: red;
+}
+.link a:visited {
+    color: green;
+}
+.link a:hover {
+    color: hotpink;
+}
+.link a:active {
+    color: white
+}
+#social {
+    background-color: black;
+    text-align: center;
+}
+.facebook {
+    padding: 5px;
+    background-color: #4267B2;
+    border: none; 
+    border-radius: 50px;
+}
+.google {
+    padding: 5px;
+    background-color: #DB4437;
+    border: none;
+    border-radius: 50px;
+}
+.twitter {
+    padding: 5px;
+    background-color: #1DA1F2;
+    border: none;
+    border-radius: 50px;
+    
+}
+.link ol {
+    background: green;
+    padding: 10px;
+    list-style-position: inside;
+}
+.link ol li {
+    background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+}
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+table {
+    border: 1px solid red
+}
+th {
+    font-size: 20px;
+    padding: 10px;
+    background-color: blue;
+}
+td {
+    padding: 5px;
+}

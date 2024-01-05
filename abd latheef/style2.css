@@ -1,0 +1,233 @@
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: black;
+    color: white;
+    
+}
+table {
+    border: 1px solid red
+}
+th {
+    font-size: 20px;
+    padding: 10px;
+    background-color: green;
+}
+td {
+    padding: 15px;
+}
+tr:hover {
+    background-color: blue;
+}
+/*tr:nth-child(odd){
+    background-color: blue;
+}*/
+.display{
+    background-color: black;
+    color: white;
+}
+ul li a{
+    color: lime;
+}
+li {
+    margin-right: 10px;
+    display: inline;
+   position: relative;
+   left: 60%;
+}
+.hidden {
+     display: none;
+   /* visibility: hidden;*/
+}
+.position {
+     background-color: black;
+     color: white;
+}
+.static {
+    position: static;
+    border: 3px solid lime;
+}
+.relative {
+    position: relative;
+    left: 25%;
+    border: 3px solid lime;
+}
+/*.fixed {
+    position: fixed;
+    bottom: 0;
+    background: lime;
+    left: 0;
+    text-align: center;
+    padding: 10px;
+   width: 100%;
+    border: 3px solid lime;
+}*/
+.relatives {
+    position: relative;
+    border: 3px solid lime;
+    left: 40%;
+    width: 200px;
+    height: 200px;
+}
+/*.absolute {
+    position: absolute;
+    border: 3px solid lime;
+}*/
+.sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    border: 3px solid lime;
+    background: lime;
+    padding: 10px;
+}
+.float{
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+.float > img {
+    float: left;
+    margin-right: 20px;
+} 
+#float-examble > div{
+    padding: 10px 0;
+    text-align: center;
+    width: 100px;
+    
+}
+.green {
+    background-color: #6aff6aad;
+    float: right;
+}
+.red {
+    background-color: #ff7373;
+    float: right;
+}
+.blue {
+    background-color: skyblue;
+    float: left;
+}
+.purple {
+    background-color: #ff88ff;
+    float: left;
+}
+.yellow {
+    background-color: yellow;
+    float: left;
+}
+.brown {
+    background-color: #ff757f;
+    float: right;
+}
+.clearboth {
+    clear: both;
+}
+.weblayout-example > div {
+    padding: 20px 0;
+    text-align: center;
+    margin: 5px 0;
+}
+.navbar {
+    background-color: #4caf50;
+    text-align: left;
+}
+.menu {
+    background-color: #3f51b5;
+    width: 33.33%;
+    height: 200px;
+    float: left;
+}
+.content {
+    background-color: #00bcd4;
+    width: 33.33%;
+    height: 200px;;
+    float: left;
+}
+.sidebar {
+    background-color: #ff9800;
+    width: 33.33%;
+    height: 200px;
+    float: left;
+}
+.footer {
+    clear: both;
+    background-color: tomato;
+}
+/*#adjacent-selector > h2 {
+    color: green;
+}
+#adjacent-selector + h2 {
+    color: brown;
+}*/
+#adjacent-selector ~ h2 {
+    color: yellow;
+}
+.psuedo-element > p::first-letter {
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+.psuedo-element > h1::after{
+    content: ";)";
+}
+.psuedo-element > h1::before{
+    content: "Section:";
+}
+::selection {
+    background-color: black;
+    color: red;
+}
+/*::-moz-selection {
+    background-color: green;
+    color: red;
+}*/
+.opacity {
+    background-color: #000;
+    width: 500px;
+}
+.opacity > img {
+    width: 500px;
+    opacity: 0;
+}
+.opacity > img:hover {
+    opacity: 1;
+}
+.selector img{
+    background-color: #000;
+    color: white;
+    float: left;
+    padding: 20px;
+}
+.selector {
+    background-color: #000;
+    color: white;
+    float: left;
+    padding: 10px;
+}
+/*span[title] {
+    color: green;
+}
+span a[target="_blank"] {
+    background-color: yellow;
+}*/
+span[title~="India"] {
+    background-color: blueviolet;
+}
+span[title~="America"] {
+    background-color:orangered;
+}
+[class|="content"] {
+    color: yellow;
+}
+ [class^="content"] {
+    color: green;
+ }
+ [class*="footer"] {
+    color: orange;
+ }
+ [class*="-"] {
+    color: red;
+ }

@@ -1,0 +1,37 @@
+
+div {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+div ul li {
+    display: inline;
+    position: relative;
+    left: 75%;
+    bottom: 80px;
+    color: blue;
+}
+div h1 {
+    position: relative;
+    top: 20px;
+    margin-left: 10px;
+}
+div a {
+    position: relative;
+    left: 55%;
+    bottom: 60px;
+    font-size: 25px;
+}
+marquee img {
+    width: 90px;
+}
+marquee {
+    position: sticky;
+    bottom: 0;
+}
+::selection{
+    color: pink;
+}
